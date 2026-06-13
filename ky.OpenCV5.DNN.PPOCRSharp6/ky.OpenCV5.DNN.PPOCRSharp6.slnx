@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/demo/">
+    <Project Path="../ky.OpenCV5.DNN.PPOCRSharp6.Console/ky.OpenCV5.DNN.PPOCRSharp6.Console.csproj" />
+    <Project Path="../ky.OpenCV5.DNN.PPOCRSharp6.From/ky.OpenCV5.DNN.PPOCRSharp6.From.csproj" Id="76ad0ed3-786f-4ad7-8d0d-fb53a03c373e" />
+  </Folder>
+  <Folder Name="/scr/">
+    <Project Path="ky.OpenCV5.DNN.PPOCRSharp6.csproj" />
+  </Folder>
+</Solution>
