@@ -81,6 +81,8 @@ var jsonOpts = new JsonSerializerOptions
     Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
 };
 Console.WriteLine(JsonSerializer.Serialize(best, jsonOpts));
+
+
 📁 目录结构
 plaintext
 ky.OpenCV5.DNN.PPOCRSharp6/
@@ -93,6 +95,8 @@ ky.OpenCV5.DNN.PPOCRSharp6/
 │   └── arm64/
 │       └── libky.OpenCVDNN.PPOCRSharp.so
 └── README.md                               # 项目说明
+
+
 🛠️ 部署说明
 编译时原生库会自动复制到对应架构的输出目录
 部署时确保 x64/arm64 目录下的原生库与主程序在同一层级
