@@ -1,0 +1,7 @@
+cd /opt/kyda/kyopencvdnn_linux_arm64
+
+# 关键：把 OpenCV 库路径加入 LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/opt/kyda/kyopencvdnn_linux_arm64:/usr/local/lib:$LD_LIBRARY_PATH
+
+# 运行程序
+./ky.OpenCVDNN.PPOCRSharp.ConsoleTest --image 1.jpg
